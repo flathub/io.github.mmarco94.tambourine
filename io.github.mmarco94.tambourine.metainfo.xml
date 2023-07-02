@@ -3,11 +3,9 @@
     <id>io.github.mmarco94.tambourine</id>
     <metadata_license>MIT</metadata_license>
     <name>Tambourine Music Player</name>
-    <summary>A simple music player for your library.</summary>
+    <summary>A simple music player for your library</summary>
     <description>
-        <p>A simple music player for your library.</p>
-        <p>THIS IS A PRE-RELEASE, the project is still in development.
-        </p>
+        <p>THIS IS A PRE-RELEASE, the project is still in development.</p>
         <p>Tenets:</p>
         <ul>
             <li>Linux first</li>
@@ -32,7 +30,7 @@
     <categories>
         <category>Audio</category>
     </categories>
-    <content_rating type="oars-1.1" />
+    <content_rating type="oars-1.1"/>
     <screenshots>
         <screenshot type="default">
             <image type="source" width="1552" height="1089">
@@ -86,6 +84,6 @@
                 <p>Full DBus access is no longer required</p>
             </description>
         </release>
-        <release version="0.1" date="2023-06-18" />
+        <release version="0.1" date="2023-06-18"/>
     </releases>
 </component>
