@@ -39,8 +39,8 @@ modules:
       - /app/jre/bin/java -jar /app/bin/tambourine.jar --initialize-skiko
     sources:
       - type: file
-        url: https://github.com/MMarco94/tambourine-music-player/releases/download/v0.4/tambourine-linux-x64-0.4.jar
-        sha256: ba514cc56ca6367fd40f1160b0c9ebbfd99c87dfcba2c24172c322b81cc7f268
+        url: https://github.com/MMarco94/tambourine-music-player/releases/download/v0.5/tambourine-linux-x64-0.5.jar
+        sha256: 329cea682f226313270b265aaec9559edf3c0aea4f61e2d6561f1c50539f92a4
         dest-filename: tambourine-linux.jar
       - type: file
         path: run.sh
