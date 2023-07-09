@@ -67,6 +67,12 @@
         <control>pointing</control>
     </recommends>
     <releases>
+        <release version="0.5" date="2023-07-09">
+            <description>
+                <p>Automatically refresh library when files change</p>
+                <p>Performance improvements while idle</p>
+            </description>
+        </release>
         <release version="0.4" date="2023-06-26">
             <description>
                 <p>Bugfix</p>
