@@ -5,7 +5,6 @@
     <name>Tambourine Music Player</name>
     <summary>A simple music player for your library</summary>
     <description>
-        <p>THIS IS A PRE-RELEASE, the project is still in development.</p>
         <p>Tenets:</p>
         <ul>
             <li>Linux first</li>
@@ -30,7 +29,7 @@
     <categories>
         <category>Audio</category>
     </categories>
-    <content_rating type="oars-1.1"/>
+    <content_rating type="oars-1.1" />
     <screenshots>
         <screenshot type="default">
             <image type="source" width="1552" height="1089">
@@ -67,6 +66,15 @@
         <control>pointing</control>
     </recommends>
     <releases>
+        <release version="1.0" date="2023-09-30">
+            <description>
+                <p>Add volume control</p>
+                <p>Add lyrics (need to be embedded in the music file)</p>
+                <p>Use Flatpak file portal. Full filesystem access is no longer necessary</p>
+                <p>Reduce app size</p>
+                <p>Support for UI scaling</p>
+            </description>
+        </release>
         <release version="0.5" date="2023-07-09">
             <description>
                 <p>Automatically refresh library when files change</p>
@@ -90,6 +98,6 @@
                 <p>Full DBus access is no longer required</p>
             </description>
         </release>
-        <release version="0.1" date="2023-06-18"/>
+        <release version="0.1" date="2023-06-18" />
     </releases>
 </component>
