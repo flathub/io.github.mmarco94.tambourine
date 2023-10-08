@@ -66,6 +66,11 @@
         <control>pointing</control>
     </recommends>
     <releases>
+        <release version="1.0.1" date="2023-10-08">
+            <description>
+                <p>Fixed a bug that didn't allow to play songs for some users</p>
+            </description>
+        </release>
         <release version="1.0" date="2023-09-30">
             <description>
                 <p>Add volume control</p>
