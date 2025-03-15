@@ -1,10 +1,10 @@
 app-id: io.github.mmarco94.tambourine
 runtime: org.freedesktop.Platform
-runtime-version: '23.08'
+runtime-version: '24.08'
 add-extensions:
   org.freedesktop.Platform.ffmpeg-full:
     directory: lib/ffmpeg
-    version: '23.08'
+    version: '24.08'
     add-ld-path: .
 sdk: org.freedesktop.Sdk
 command: run.sh
@@ -27,8 +27,8 @@ modules:
       - ln -s /usr/lib/x86_64-linux-gnu/libbz2.so.1.0.8 /app/tambourine/lib/os/libbz2.so.1.0
     sources:
       - type: file
-        url: https://github.com/MMarco94/tambourine-music-player/releases/download/v1.0.1/tambourine.tar.gz
-        sha256: fb1288c31a85d87d0e161a3907960632d22279e0a8d5339a26c2deedea53ad16
+        url: https://github.com/MMarco94/tambourine-music-player/releases/download/v1.0.2/tambourine.tar.gz
+        sha256: af2acc6f3c1cd64861ac5f1577c28e0a57e83879372a07e6ac310d87c69e22b0
         dest-filename: tambourine.tar.gz
       - type: file
         path: run.sh

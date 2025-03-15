@@ -66,6 +66,14 @@
         <control>pointing</control>
     </recommends>
     <releases>
+        <release version="1.0.2" date="2025-03-15">
+            <description>
+                <p>Fixed a bug that prevented opening music files</p>
+                <p>App should be in the audio category</p>
+                <p>App can be used as default music player</p>
+                <p>Update to the latest version of all dependencies</p>
+            </description>
+        </release>
         <release version="1.0.1" date="2023-10-08">
             <description>
                 <p>Fixed a bug that didn't allow to play songs for some users</p>
