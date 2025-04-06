@@ -66,6 +66,15 @@
         <control>pointing</control>
     </recommends>
     <releases>
+        <release version="1.1.1" date="2025-04-06">
+            <description>
+                <p>Buffering mechanism is redone from scratch. It should result in significantly better performances</p>
+                <p>When sorting songs, the disk number is also taken into account</p>
+                <p>Several changes on the audio loop should increase the responsiveness of the app</p>
+                <p>Removed the already half-working audio spectrometer in favour of an animation based on the waveform. This will also reduce the CPU usage</p>
+                <p>The waveform is displayed as it is computed, increasing the perceived speed of its computation</p>
+            </description>
+        </release>
         <release version="1.0.2" date="2025-03-15">
             <description>
                 <p>Fixed a bug that prevented opening music files</p>
