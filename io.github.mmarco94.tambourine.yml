@@ -27,8 +27,8 @@ modules:
       - ln -s /usr/lib/x86_64-linux-gnu/libbz2.so.1.0.8 /app/tambourine/lib/os/libbz2.so.1.0
     sources:
       - type: file
-        url: https://github.com/MMarco94/tambourine-music-player/releases/download/v1.1.1/tambourine.tar.gz
-        sha256: 5ac815adb14e42636182a93125dcbdfdce402c92e796abcdea53daa72675bffa
+        url: https://github.com/MMarco94/tambourine-music-player/releases/download/v1.1.2/tambourine.tar.gz
+        sha256: a11a07f334d4f06a0855484af99601b0a0fb9f4bb7906140f43d4ad357ab87e4
         dest-filename: tambourine.tar.gz
       - type: file
         path: run.sh

@@ -2,9 +2,17 @@
 <component type="desktop">
     <id>io.github.mmarco94.tambourine</id>
     <metadata_license>MIT</metadata_license>
-    <name>Tambourine Music Player</name>
-    <summary>A simple music player for your library</summary>
+    <name>Tambourine</name>
+    <summary>Your music, minus the clutter</summary>
     <description>
+        <p>A simple and straight to the point music player for your local library.</p>
+        <p>Features:</p>
+        <ul>
+            <li>Browse your music collection</li>
+            <li>Play a songs</li>
+            <li>That's it really (well... there is a bit more: lyrics, waveform, gapless playback, filter/sort, etc.)
+            </li>
+        </ul>
         <p>Tenets:</p>
         <ul>
             <li>Linux first</li>
@@ -13,12 +21,6 @@
             <li>Stateless: no cache/database/whatever will be created. The metadata in your songs _are_ the database.
             </li>
             <li>Imperfect: there will be use-cases that are not solved by this software, and that's fine.</li>
-        </ul>
-        <p>Main features of this app:</p>
-        <ul>
-            <li>Browse your music collection</li>
-            <li>Play a songs</li>
-            <li>That's it really</li>
         </ul>
     </description>
     <url type="homepage">https://github.com/MMarco94/tambourine-music-player/</url>
@@ -29,34 +31,44 @@
     <categories>
         <category>Audio</category>
     </categories>
-    <content_rating type="oars-1.1" />
+    <branding>
+        <color type="primary" scheme_preference="light">#810219</color>
+        <color type="primary" scheme_preference="dark">#810219</color>
+    </branding>
+    <content_rating type="oars-1.1"/>
     <screenshots>
         <screenshot type="default">
+            <caption>Tambourine's main window</caption>
             <image type="source" width="1552" height="1089">
                 https://raw.githubusercontent.com/MMarco94/tambourine-music-player/main/screenshots/s1.png
             </image>
         </screenshot>
         <screenshot>
+            <caption>The currently playing queue</caption>
             <image type="source" width="1552" height="1089">
                 https://raw.githubusercontent.com/MMarco94/tambourine-music-player/main/screenshots/s2.png
             </image>
         </screenshot>
         <screenshot>
+            <caption>Small window form factor</caption>
             <image type="source" width="733" height="1139">
                 https://raw.githubusercontent.com/MMarco94/tambourine-music-player/main/screenshots/s5.png
             </image>
         </screenshot>
         <screenshot>
+            <caption>Artist filter and sorting options</caption>
             <image type="source" width="1552" height="1089">
                 https://raw.githubusercontent.com/MMarco94/tambourine-music-player/main/screenshots/s3.png
             </image>
         </screenshot>
         <screenshot>
+            <caption>Tambourine's main window, with an artist filter applied</caption>
             <image type="source" width="1552" height="1089">
                 https://raw.githubusercontent.com/MMarco94/tambourine-music-player/main/screenshots/s4.png
             </image>
         </screenshot>
         <screenshot>
+            <caption>The search interface</caption>
             <image type="source" width="1552" height="1089">
                 https://raw.githubusercontent.com/MMarco94/tambourine-music-player/main/screenshots/s6.png
             </image>
@@ -66,12 +78,21 @@
         <control>pointing</control>
     </recommends>
     <releases>
+        <release version="1.1.2" date="2025-04-11">
+            <description>
+                <p>Brief silences at the beginning/end of songs are automatically skipped. This helps with gapless
+                    playback.
+                </p>
+            </description>
+        </release>
         <release version="1.1.1" date="2025-04-06">
             <description>
                 <p>Buffering mechanism is redone from scratch. It should result in significantly better performances</p>
                 <p>When sorting songs, the disk number is also taken into account</p>
                 <p>Several changes on the audio loop should increase the responsiveness of the app</p>
-                <p>Removed the already half-working audio spectrometer in favour of an animation based on the waveform. This will also reduce the CPU usage</p>
+                <p>Removed the already half-working audio spectrometer in favour of an animation based on the waveform.
+                    This will also reduce the CPU usage
+                </p>
                 <p>The waveform is displayed as it is computed, increasing the perceived speed of its computation</p>
             </description>
         </release>
@@ -120,6 +141,6 @@
                 <p>Full DBus access is no longer required</p>
             </description>
         </release>
-        <release version="0.1" date="2023-06-18" />
+        <release version="0.1" date="2023-06-18"/>
     </releases>
 </component>
