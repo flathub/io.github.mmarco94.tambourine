@@ -78,6 +78,12 @@
         <control>pointing</control>
     </recommends>
     <releases>
+        <release version="1.1.3" date="2026-03-29">
+            <description>
+                <p>Optimized startup speed</p>
+                <p>Updated dependencies</p>
+            </description>
+        </release>
         <release version="1.1.2" date="2025-04-11">
             <description>
                 <p>Brief silences at the beginning/end of songs are automatically skipped. This helps with gapless
