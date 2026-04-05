@@ -25,13 +25,25 @@ modules:
       - mkdir -p /app/lib/ffmpeg
       - mkdir -p /app/tambourine/lib/os
       - ln -s /usr/lib/x86_64-linux-gnu/libbz2.so.1.0.8 /app/tambourine/lib/os/libbz2.so.1.0
+      # running the app to create the SharedArchiveFile
+      - touch -t 197001010100 /app/tambourine/lib/app/tambourine-*.jar # setting a stable timestamp on the JAR
+      - cp /app/tambourine/lib/app/tambourine.cfg /app/tambourine/lib/app/tambourine.cfg.bkp
+      - echo "java-options=-Xshare:dump" >> /app/tambourine/lib/app/tambourine.cfg
+      - echo "java-options=-XX:SharedClassListFile=tambourine.classlist" >> /app/tambourine/lib/app/tambourine.cfg
+      - echo "java-options=-XX:SharedArchiveFile=/app/tambourine/lib/app/resources/tambourine.jsa" >> /app/tambourine/lib/app/tambourine.cfg
+      - /app/tambourine/bin/tambourine
+      # restoring original config and add class archive
+      - mv /app/tambourine/lib/app/tambourine.cfg.bkp /app/tambourine/lib/app/tambourine.cfg
+      - echo "java-options=-XX:SharedArchiveFile=/app/tambourine/lib/app/resources/tambourine.jsa" >> /app/tambourine/lib/app/tambourine.cfg
     sources:
       - type: file
-        url: https://github.com/MMarco94/tambourine-music-player/releases/download/v1.1.3/tambourine.tar.gz
-        sha256: c9f5a0045a2db8ab7b6d1da4cf255211d2c4b5d93f2abf73655e56aeb99ec395
+        url: https://github.com/MMarco94/tambourine-music-player/releases/download/v1.1.4/tambourine.tar.gz
+        sha256: ec4e52a5c7c607a4774c9ab336f3db825aa75221f19819140bdfcdbd078504be
         dest-filename: tambourine.tar.gz
       - type: file
         path: run.sh
+      - type: file
+        path: tambourine.classlist
   - name: extras
     buildsystem: simple
     build-commands:
