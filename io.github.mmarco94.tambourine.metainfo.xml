@@ -78,6 +78,11 @@
         <control>pointing</control>
     </recommends>
     <releases>
+        <release version="1.1.5" date="2026-04-05">
+            <description>
+                <p>Bugfix: JVM settings that affect app startup speed should be correctly applied now</p>
+            </description>
+        </release>
         <release version="1.1.4" date="2026-04-05">
             <description>
                 <p>Significantly improved startup speed</p>
