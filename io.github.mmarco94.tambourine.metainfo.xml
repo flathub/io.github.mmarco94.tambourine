@@ -39,38 +39,38 @@
     <screenshots>
         <screenshot type="default">
             <caption>Tambourine's main window</caption>
-            <image type="source" width="1552" height="1089">
-                https://raw.githubusercontent.com/MMarco94/tambourine-music-player/6e1e5472bf2a1b5ec9001cf391fcc76bdabd3ac3/screenshots/s1.png
+            <image type="source" width="2000" height="1400" scale="2">
+                https://raw.githubusercontent.com/MMarco94/tambourine-music-player/2e6970c977d941db62e6b58d3a73d82e308bf86c/screenshots/main_window.png
             </image>
         </screenshot>
         <screenshot>
             <caption>The currently playing queue</caption>
-            <image type="source" width="1552" height="1089">
-                https://raw.githubusercontent.com/MMarco94/tambourine-music-player/6e1e5472bf2a1b5ec9001cf391fcc76bdabd3ac3/screenshots/s2.png
+            <image type="source" width="2000" height="1400" scale="2">
+                https://raw.githubusercontent.com/MMarco94/tambourine-music-player/2e6970c977d941db62e6b58d3a73d82e308bf86c/screenshots/queue.png
             </image>
         </screenshot>
         <screenshot>
             <caption>Small window form factor</caption>
-            <image type="source" width="733" height="1139">
-                https://raw.githubusercontent.com/MMarco94/tambourine-music-player/6e1e5472bf2a1b5ec9001cf391fcc76bdabd3ac3/screenshots/s5.png
+            <image type="source" width="1032" height="1668" scale="2">
+                https://raw.githubusercontent.com/MMarco94/tambourine-music-player/2e6970c977d941db62e6b58d3a73d82e308bf86c/screenshots/small.png
             </image>
         </screenshot>
         <screenshot>
             <caption>Artist filter and sorting options</caption>
-            <image type="source" width="1552" height="1089">
-                https://raw.githubusercontent.com/MMarco94/tambourine-music-player/6e1e5472bf2a1b5ec9001cf391fcc76bdabd3ac3/screenshots/s3.png
+            <image type="source" width="2000" height="1400" scale="2">
+                https://raw.githubusercontent.com/MMarco94/tambourine-music-player/2e6970c977d941db62e6b58d3a73d82e308bf86c/screenshots/filters.png
             </image>
         </screenshot>
         <screenshot>
-            <caption>Tambourine's main window, with an artist filter applied</caption>
-            <image type="source" width="1552" height="1089">
-                https://raw.githubusercontent.com/MMarco94/tambourine-music-player/6e1e5472bf2a1b5ec9001cf391fcc76bdabd3ac3/screenshots/s4.png
+            <caption>Tambourine's main window, with an artist filter applied, with lyrics enabled</caption>
+            <image type="source" width="2000" height="1400" scale="2">
+                https://raw.githubusercontent.com/MMarco94/tambourine-music-player/2e6970c977d941db62e6b58d3a73d82e308bf86c/screenshots/filter_lyrics.png
             </image>
         </screenshot>
         <screenshot>
             <caption>The search interface</caption>
-            <image type="source" width="1552" height="1089">
-                https://raw.githubusercontent.com/MMarco94/tambourine-music-player/0458f3ec3bf5499590c8dc7aa22375a881547b81/screenshots/s6.png
+            <image type="source" width="2000" height="1400" scale="2">
+                https://raw.githubusercontent.com/MMarco94/tambourine-music-player/2e6970c977d941db62e6b58d3a73d82e308bf86c/screenshots/search.png
             </image>
         </screenshot>
     </screenshots>
@@ -78,6 +78,16 @@
         <control>pointing</control>
     </recommends>
     <releases>
+        <release version="1.2.0" date="2026-04-06">
+            <description>
+                <p>Tamburine by default now doesn't use system decorations</p>
+                <p>Blur effect improved to also add a small noise filter</p>
+                <p>Add option to reload the music library (useful on filesystems without inotify)</p>
+                <p>Bugfix: pressing space while searching doesn't pause/resume the current song</p>
+                <p>Minor tweaks to layout and colors</p>
+                <p>Minor performance improvements</p>
+            </description>
+        </release>
         <release version="1.1.5" date="2026-04-05">
             <description>
                 <p>Bugfix: JVM settings that affect app startup speed should be correctly applied now</p>
