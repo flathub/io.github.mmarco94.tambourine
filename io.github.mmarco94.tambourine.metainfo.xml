@@ -2,6 +2,7 @@
 <component type="desktop">
     <id>io.github.mmarco94.tambourine</id>
     <metadata_license>MIT</metadata_license>
+    <project_license>GPL-3.0</project_license>
     <name>Tambourine</name>
     <summary>Your music, minus the clutter</summary>
     <description>
@@ -27,8 +28,9 @@
     <url type="bugtracker">https://github.com/MMarco94/tambourine-music-player/issues</url>
     <url type="vcs-browser">https://github.com/MMarco94/tambourine-music-player</url>
     <launchable type="desktop-id">io.github.mmarco94.tambourine.desktop</launchable>
-    <project_license>GPL-3.0</project_license>
-    <developer_name>Marco Marangoni</developer_name>
+    <developer id="io.github.mmarco94">
+        <name>Marco Marangoni</name>
+    </developer>
     <categories>
         <category>Audio</category>
     </categories>
