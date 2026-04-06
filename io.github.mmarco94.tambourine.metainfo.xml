@@ -5,26 +5,27 @@
     <name>Tambourine</name>
     <summary>Your music, minus the clutter</summary>
     <description>
-        <p>A simple and straight to the point music player for your local library.</p>
+        <p>A simple and straight-to-the point music player for your local library.</p>
         <p>Features:</p>
         <ul>
             <li>Browse your music collection</li>
-            <li>Play a songs</li>
+            <li>Play songs</li>
             <li>That's it really (well... there is a bit more: lyrics, waveform, gapless playback, filter/sort, etc.)
             </li>
         </ul>
         <p>Tenets:</p>
         <ul>
             <li>Linux first</li>
-            <li>Local only: no internet connection will ever be established.</li>
-            <li>Read only: your music will be accessed only in read mode.</li>
-            <li>Stateless: no cache/database/whatever will be created. The metadata in your songs _are_ the database.
+            <li>Local only: no internet connection will ever be established</li>
+            <li>Read-only: your music will be accessed only in read mode</li>
+            <li>Stateless: no cache/database/whatever will be created. The metadata in your songs _are_ the database
             </li>
-            <li>Imperfect: there will be use-cases that are not solved by this software, and that's fine.</li>
+            <li>Imperfect: there will be use-cases that are not solved by this software, and that's fine</li>
         </ul>
     </description>
     <url type="homepage">https://github.com/MMarco94/tambourine-music-player/</url>
     <url type="bugtracker">https://github.com/MMarco94/tambourine-music-player/issues</url>
+    <url type="vcs-browser">https://github.com/MMarco94/tambourine-music-player</url>
     <launchable type="desktop-id">io.github.mmarco94.tambourine.desktop</launchable>
     <project_license>GPL-3.0</project_license>
     <developer_name>Marco Marangoni</developer_name>
