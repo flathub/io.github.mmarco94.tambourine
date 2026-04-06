@@ -40,37 +40,37 @@
         <screenshot type="default">
             <caption>Tambourine's main window</caption>
             <image type="source" width="1552" height="1089">
-                https://raw.githubusercontent.com/MMarco94/tambourine-music-player/main/screenshots/s1.png
+                https://raw.githubusercontent.com/MMarco94/tambourine-music-player/6e1e5472bf2a1b5ec9001cf391fcc76bdabd3ac3/screenshots/s1.png
             </image>
         </screenshot>
         <screenshot>
             <caption>The currently playing queue</caption>
             <image type="source" width="1552" height="1089">
-                https://raw.githubusercontent.com/MMarco94/tambourine-music-player/main/screenshots/s2.png
+                https://raw.githubusercontent.com/MMarco94/tambourine-music-player/6e1e5472bf2a1b5ec9001cf391fcc76bdabd3ac3/screenshots/s2.png
             </image>
         </screenshot>
         <screenshot>
             <caption>Small window form factor</caption>
             <image type="source" width="733" height="1139">
-                https://raw.githubusercontent.com/MMarco94/tambourine-music-player/main/screenshots/s5.png
+                https://raw.githubusercontent.com/MMarco94/tambourine-music-player/6e1e5472bf2a1b5ec9001cf391fcc76bdabd3ac3/screenshots/s5.png
             </image>
         </screenshot>
         <screenshot>
             <caption>Artist filter and sorting options</caption>
             <image type="source" width="1552" height="1089">
-                https://raw.githubusercontent.com/MMarco94/tambourine-music-player/main/screenshots/s3.png
+                https://raw.githubusercontent.com/MMarco94/tambourine-music-player/6e1e5472bf2a1b5ec9001cf391fcc76bdabd3ac3/screenshots/s3.png
             </image>
         </screenshot>
         <screenshot>
             <caption>Tambourine's main window, with an artist filter applied</caption>
             <image type="source" width="1552" height="1089">
-                https://raw.githubusercontent.com/MMarco94/tambourine-music-player/main/screenshots/s4.png
+                https://raw.githubusercontent.com/MMarco94/tambourine-music-player/6e1e5472bf2a1b5ec9001cf391fcc76bdabd3ac3/screenshots/s4.png
             </image>
         </screenshot>
         <screenshot>
             <caption>The search interface</caption>
             <image type="source" width="1552" height="1089">
-                https://raw.githubusercontent.com/MMarco94/tambourine-music-player/main/screenshots/s6.png
+                https://raw.githubusercontent.com/MMarco94/tambourine-music-player/0458f3ec3bf5499590c8dc7aa22375a881547b81/screenshots/s6.png
             </image>
         </screenshot>
     </screenshots>
