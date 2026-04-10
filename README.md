@@ -16,6 +16,8 @@ Validate the metadata files:
 flatpak run org.flathub.flatpak-external-data-checker io.github.mmarco94.tambourine.yml
 flatpak run --command=flatpak-builder-lint org.flatpak.Builder --exceptions manifest io.github.mmarco94.tambourine.yml
 flatpak run --env=G_DEBUG=fatal-criticals --command=appstream-util org.flatpak.Builder validate io.github.mmarco94.tambourine.metainfo.xml
+gnome-software --show-metainfo io.github.mmarco94.tambourine.metainfo.xml
+appstreamcli get --details --datapath io.github.mmarco94.tambourine.metainfo.xml io.github.mmarco94.tambourine
 ```
 
 Build the app:
