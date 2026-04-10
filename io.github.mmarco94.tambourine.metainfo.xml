@@ -19,9 +19,7 @@
             <li>Linux first</li>
             <li>Local only: no internet connection will ever be established</li>
             <li>Read-only: your music will be accessed only in read mode</li>
-            <li>Stateless: no cache/database/whatever will be created. The metadata in your songs <em>are</em> the
-                database
-            </li>
+            <li>Stateless: no cache/database/whatever will be created. The metadata in your songs <em>are</em> the database</li>
             <li>Imperfect: there will be use-cases that are not solved by this software, and that's fine</li>
         </ul>
     </description>
@@ -33,7 +31,9 @@
         <name>Marco Marangoni</name>
     </developer>
     <categories>
+        <category>AudioVideo</category>
         <category>Audio</category>
+        <category>Music</category>
     </categories>
     <branding>
         <color type="primary" scheme_preference="light">#810219</color>
