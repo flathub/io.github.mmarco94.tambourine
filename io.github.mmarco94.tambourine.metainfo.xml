@@ -19,7 +19,8 @@
             <li>Linux first</li>
             <li>Local only: no internet connection will ever be established</li>
             <li>Read-only: your music will be accessed only in read mode</li>
-            <li>Stateless: no cache/database/whatever will be created. The metadata in your songs <em>are</em> the database</li>
+            <li>Stateless: no cache/database/whatever will be created. The metadata in your songs <em>are</em> the database
+            </li>
             <li>Imperfect: there will be use-cases that are not solved by this software, and that's fine</li>
         </ul>
     </description>
@@ -36,8 +37,8 @@
         <category>Music</category>
     </categories>
     <branding>
-        <color type="primary" scheme_preference="light">#810219</color>
-        <color type="primary" scheme_preference="dark">#810219</color>
+        <color type="primary" scheme_preference="light">#ffbe6f</color>
+        <color type="primary" scheme_preference="dark">#631800</color>
     </branding>
     <content_rating type="oars-1.1"/>
     <screenshots>
@@ -51,6 +52,12 @@
             <caption>The currently playing queue</caption>
             <image type="source" width="2000" height="1400" scale="2">
                 https://raw.githubusercontent.com/MMarco94/tambourine-music-player/2e6970c977d941db62e6b58d3a73d82e308bf86c/screenshots/queue.png
+            </image>
+        </screenshot>
+        <screenshot>
+            <caption>The light theme</caption>
+            <image type="source" width="2000" height="1400" scale="2">
+                https://raw.githubusercontent.com/MMarco94/tambourine-music-player/7b7280ba2f4faf6f379e5c49545549a8c17f6f6b/screenshots/light_theme.png
             </image>
         </screenshot>
         <screenshot>
@@ -82,10 +89,21 @@
         <control>pointing</control>
     </recommends>
     <releases>
+        <release version="1.4.0" date="2026-04-11">
+            <description>
+                <p>Add light theme</p>
+                <p>Add option to change font size</p>
+                <p>Updated icon to SVG</p>
+                <p>Add Brazilian translation</p>
+                <p>Bugfix: folders with special characters are better handled</p>
+                <p>Add 'Music' in desktop file's categories</p>
+                <p>Improved preservation of scrolling position</p>
+            </description>
+        </release>
         <release version="1.3.0" date="2026-04-10">
             <description>
                 <p>Initial basic playlist support (need to be existing m3u files)</p>
-                <p>Add italian translation</p>
+                <p>Add Italian translation</p>
                 <p>Minor layout and performance improvements</p>
             </description>
         </release>
