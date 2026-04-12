@@ -89,6 +89,16 @@
         <control>pointing</control>
     </recommends>
     <releases>
+        <release version="1.5.0" date="2026-04-12">
+            <description>
+                <p>Add support for external cover image and lyrics</p>
+                <p>Remember window size/position</p>
+                <p>The initial background is chosen based on system's accent color</p>
+                <p>Preserve filter/sort when library changes</p>
+                <p>Add symbolic icon</p>
+                <p>minor bugfixes and performance improvements</p>
+            </description>
+        </release>
         <release version="1.4.0" date="2026-04-11">
             <description>
                 <p>Add light theme</p>
