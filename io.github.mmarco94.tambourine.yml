@@ -32,8 +32,8 @@ modules:
       - echo "java-options=-XX:SharedArchiveFile=/app/tambourine/lib/app/resources/tambourine.jsa" >> /app/tambourine/lib/app/tambourine.cfg
     sources:
       - type: file
-        url: https://github.com/MMarco94/tambourine-music-player/releases/download/v1.5.0/tambourine.tar.gz
-        sha256: c8212be2a33909aa4ce02c9c105db2e5f69746828147cda06e439422f370ef79
+        url: https://github.com/MMarco94/tambourine-music-player/releases/download/v1.5.1/tambourine.tar.gz
+        sha256: 6c5bb8296b7354b93941bdbfb1c70334c6e47ae2e42b82ed07e12c08d55b9ff6
         dest-filename: tambourine.tar.gz
       - type: file
         path: run.sh
@@ -48,8 +48,8 @@ modules:
       - install -D icon-symbolic.svg /app/share/icons/hicolor/scalable/apps/io.github.mmarco94.tambourine-symbolic.svg
     sources:
       - type: file
-        url: https://raw.githubusercontent.com/MMarco94/tambourine-music-player/4be67ff4eb7724aeb81c54a8281d8988ad7cb1ba/flatpak/io.github.mmarco94.tambourine.desktop
-        sha256: 9d3d0b45c84bb1db8d2a6c5d83e5e68784df0d97cb0ee3e0fb95fda3ccc8d320
+        url: https://raw.githubusercontent.com/MMarco94/tambourine-music-player/0f39f3714563fc4b8f5c7d0092a7932d0c0ebd8f/flatpak/io.github.mmarco94.tambourine.desktop
+        sha256: bba9ef732d0db2eb0339bc086dd54e24eb43f8c282ee85c5f0c999eb2fa2c724
       - type: file
         path: io.github.mmarco94.tambourine.metainfo.xml
       - type: file
