@@ -22,7 +22,7 @@ appstreamcli get --details --datapath io.github.mmarco94.tambourine.metainfo.xml
 
 Build the app:
 ```
-flatpak-builder --repo=repo --force-clean build-dir io.github.mmarco94.tambourine.yml
+flatpak-builder --repo=repo --disable-cache --force-clean build-dir io.github.mmarco94.tambourine.yml
 ```
 
 Add it to your local Flatpak installation:
