@@ -24,6 +24,16 @@
             <li>Imperfect: there will be use-cases that are not solved by this software, and that's fine</li>
         </ul>
     </description>
+    <keywords>
+        <keyword>Music</keyword>
+        <keyword>Player</keyword>
+        <keyword>Audio</keyword>
+        <keyword>Song</keyword>
+        <keyword>Songs</keyword>
+        <keyword>Album</keyword>
+        <keyword>Albums</keyword>
+        <keyword>Lyrics</keyword>
+    </keywords>
     <url type="homepage">https://github.com/MMarco94/tambourine-music-player/</url>
     <url type="bugtracker">https://github.com/MMarco94/tambourine-music-player/issues</url>
     <url type="vcs-browser">https://github.com/MMarco94/tambourine-music-player</url>
@@ -89,6 +99,14 @@
         <control>pointing</control>
     </recommends>
     <releases>
+        <release version="1.5.2" date="2026-04-19">
+            <description>
+                <p>Add Croatian translation</p>
+                <p>Fix crash when switching between libraries</p>
+                <p>Small visual improvements</p>
+                <p>Small memory usage reduction</p>
+            </description>
+        </release>
         <release version="1.5.1" date="2026-04-14">
             <description>
                 <p>Fix icon in KDE</p>
