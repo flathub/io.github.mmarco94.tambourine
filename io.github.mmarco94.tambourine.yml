@@ -32,9 +32,17 @@ modules:
       - echo "java-options=-XX:SharedArchiveFile=/app/tambourine/lib/app/resources/tambourine.jsa" >> /app/tambourine/lib/app/tambourine.cfg
     sources:
       - type: file
-        url: https://github.com/MMarco94/tambourine-music-player/releases/download/v1.5.2/tambourine.tar.gz
-        sha256: b60730a55d0140c85d9244eb173a6c9edc2714aecef578f3b39aa95414d5da1c
+        url: https://github.com/MMarco94/tambourine-music-player/releases/download/v1.5.3/tambourine-amd64.tar.gz
+        sha256: 2e4ae5edb30744f1864cd73d6cef8b13b53dfec0a74726a80a1bf841c00e1911
         dest-filename: tambourine.tar.gz
+        only-arches:
+          - x86_64
+      - type: file
+        url: https://github.com/MMarco94/tambourine-music-player/releases/download/v1.5.3/tambourine-arm64.tar.gz
+        sha256: 10de40f38207f9cd67cb1a4b47544df189d8477bf685e83917f52ae4d3eb496a
+        dest-filename: tambourine.tar.gz
+        only-arches:
+          - aarch64
       - type: file
         path: run.sh
       - type: file
