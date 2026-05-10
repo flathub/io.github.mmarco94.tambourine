@@ -99,6 +99,13 @@
         <control>pointing</control>
     </recommends>
     <releases>
+        <release version="1.5.4" date="2026-05-10">
+            <description>
+                <p>Faster opening time</p>
+                <p>Support date and year+month on song metadata (rather than just year)</p>
+                <p>Auto-scroll to top when changing sorting options</p>
+            </description>
+        </release>
         <release version="1.5.3" date="2026-05-02">
             <description>
                 <p>Add support for ARM (experimental)</p>
