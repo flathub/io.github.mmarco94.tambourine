@@ -99,6 +99,12 @@
         <control>pointing</control>
     </recommends>
     <releases>
+        <release version="1.5.6" date="2026-05-16">
+            <description>
+                <p>Added Russian translation</p>
+                <p>Reduce memory usage</p>
+            </description>
+        </release>
         <release version="1.5.5" date="2026-05-14">
             <description>
                 <p>Added German translation</p>

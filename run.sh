@@ -7,5 +7,6 @@ rm -f "$XDG_CACHE_HOME"/tmp/*.png
 mkdir -p "$XDG_CACHE_HOME"/tmp
 
 export JAVA_TOOL_OPTIONS="-Djava.io.tmpdir=$XDG_CACHE_HOME/tmp -Djava.util.prefs.userRoot=$XDG_CONFIG_HOME"
+export MALLOC_TRIM_THRESHOLD_=131072 # 128k. See https://www.man7.org/linux/man-pages/man3/mallopt.3.html
 
 LD_LIBRARY_PATH=/app/tambourine/lib/os exec /app/tambourine/bin/tambourine "$@"
